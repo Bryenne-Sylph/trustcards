@@ -1,9 +1,6 @@
 --[[
     Copyright © 2025, Bryenne - Sylph server [DragonGuard]
     All rights reserved.
-	
-
-	test volunteers: Azykros
 ]]
 
 -- Windower Add On Mandatory fields
@@ -23,7 +20,6 @@ require('lists')
 require('tables')
 
 -- [INITIALIZATION] ------------------------------------------------>
-windower.register_event('load',function()
 	windower_settings = windower.get_windower_settings()
 	-- local variables initialization
 	chat = windower.add_to_chat
@@ -60,7 +56,6 @@ windower.register_event('load',function()
 
 	settings = config.load(defaults)
 	config.save(settings)
-end)
 
 -- handles commands given to the add on by user
 windower.register_event('addon command', function(command, ...)
