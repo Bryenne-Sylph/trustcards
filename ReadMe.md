@@ -1,5 +1,5 @@
 # TRUST CARDS
-### v1.0
+## v1.0
 ### Written by Bryenne[Sylph]
 
 This addon creates small graphical 'cards' when summoning Trusts.
@@ -8,13 +8,18 @@ to describe the trust as helpful hints, or not, in some cases.
 
 These lines can be customized in the lua file to suit your own preferences!
 
-# COMMANDS
+## COMMANDS
 pos			: the position on your screen
-			  by default this is set to the left of center, based on windower resolution
 			  
-			  to change: //tc pos x y 
-			  
-			  example: //tc pos 1000 200 sets the window to 1000 pixels to the right and 200 pixels down
+			to change:
+```xml			  
+			//tc pos x y 
+```			  
+			example: 
+```xml
+			//tc pos 1000 200 
+```
+			This sets the window to 1000 pixels to the right and 200 pixels down
 			  
 bg			: numeric 1-4, changes the background window of the Trust Card 
 			  1 = Classic FFXI window
