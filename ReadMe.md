@@ -9,19 +9,19 @@ to describe the trust as helpful hints, or not, in some cases.
 These lines can be customized in the lua file to suit your own preferences!
 
 ## COMMANDS
-pos			: the position on your screen
-			  
-			to change:
+
+####pos
+Sets the location of the Trust Cards window (anchored on top-left corner), requires [x] and [y] coordinate			  
+to change:
 ```xml			  
-			//tc pos x y 
-```			  
-			example: 
-```xml
-			//tc pos 1000 200 
+//tc pos x y 
+
+//tc pos 1000 200 
 ```
-			This sets the window to 1000 pixels to the right and 200 pixels down
+This sets the window to 1000 pixels to the right and 200 pixels down
 			  
-bg			: numeric 1-4, changes the background window of the Trust Card 
+####bg
+numeric 1-4, changes the background window of the Trust Card 
 			  1 = Classic FFXI window
 			  2 = A Red Gradient background
 			  3 = A Green Gradient background
