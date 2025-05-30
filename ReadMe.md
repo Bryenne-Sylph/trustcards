@@ -16,7 +16,7 @@ Use //tc or //trustcards to give these COMMANDS
 ### pos
 Sets the location of the Trust Cards window (anchored on top-left corner), requires [x] and [y] coordinate			  
 to change:
-```xml			  
+```
 //tc pos x y 
 
 For example:
@@ -26,11 +26,11 @@ This sets the window to 1000 pixels to the right and 200 pixels down
 			  
 ### bg
 numeric 1-4, changes the background window of the Trust Card
-*1 = Classic FFXI window
-*2 = A Red Gradient background
-*3 = A Green Gradient background
-*4 = "Heavy Metal Plate" background
-```xml  
+* 1 = Classic FFXI window
+* 2 = A Red Gradient background
+* 3 = A Green Gradient background
+* 4 = "Heavy Metal Plate" background
+```
 //tc bg [1-4] 
 
 For example: 
@@ -41,7 +41,7 @@ This sets the window to the red gradient background
 ### alpha
 numeric 0-255, sets the alpha of the background window (and only the background, text and portraits are not affected). By default this is set to 255 (solid)
 to change: 
-```xml
+```
 //tc alpha [0-255]
 			  
 For example:
@@ -56,7 +56,7 @@ checktrust	: [TODO] no parameters, just the command...this checks all your learn
 			  
 ### test
 Requires a string as input and will show the card of a specific trust if a name is added, partial names work as well...this is mostly to test graphics or to check the traits if you are looking for a specific trait.
-```xml
+```
 For Example:
 //tc test ayame
 //tc test mihli
